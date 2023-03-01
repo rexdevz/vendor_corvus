@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     CorvusWalls \
     CustomFonts \
     OmniJaws \
-    GamingMode
+    GamingMode \
+    CorvusZen
 
 # Charger mode images
 ifeq ($(TARGET_INCLUDE_PIXEL_CHARGER),true)
@@ -54,8 +55,7 @@ PRODUCT_PACKAGES += \
 
 ifneq (,$(filter $(RAVEN_LAIR), Official Beta-Official))
 PRODUCT_PACKAGES += \
-    RavenDesk \
-    CorvusZen
+    RavenDesk
 endif
 
 # OmniStyle
